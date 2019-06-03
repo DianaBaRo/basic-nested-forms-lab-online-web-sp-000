@@ -6,7 +6,7 @@
     <%= ingredient.text_field :name %><br>
      
     <%= ingredient.label :quantity %>
-    <%= ingredient.text_field :quantity %><br>
+    <%= ingredient.text_field :quantity, id: "recipe_ingredients_attributes_#{ingredient.index}_quantity" %><br>
 
   <% end %>
 
