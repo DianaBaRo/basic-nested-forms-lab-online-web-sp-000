@@ -9,8 +9,8 @@ class RecipesController < ApplicationController
 
   def new
     @recipe = Recipe.new
-    @recipe.ingredients.build(ingredient_type: 'ingedient 1')
-    @recipe.ingredients.build(ingredient_type: 'ingedient 2')
+    @recipe.ingredients.build(ingredient_type: 'ingredient 1')
+    @recipe.ingredients.build(ingredient_type: 'ingredient 2')
   end
 
   def create
