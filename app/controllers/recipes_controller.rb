@@ -20,7 +20,7 @@ class RecipesController < ApplicationController
       redirect_to @recipe
     else
       render :new
-    end    
+    end
   end
 
   private
